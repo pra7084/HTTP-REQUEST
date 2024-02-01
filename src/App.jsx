@@ -32,6 +32,7 @@ function App() {
       return [selectedPlace, ...prevPickedPlaces];
     });
   }
+  console.log("app.js");
 
   const handleRemovePlace = useCallback(async function handleRemovePlace() {
     setUserPlaces((prevPickedPlaces) =>

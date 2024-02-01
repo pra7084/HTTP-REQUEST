@@ -5,4 +5,4 @@ export async function fetchAvailablePlaces(){
         }
         const resData = await response.json();
         return resData.places;
-}
+      }
