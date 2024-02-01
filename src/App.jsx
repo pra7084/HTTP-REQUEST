@@ -1,5 +1,4 @@
 import { useRef, useState, useCallback } from 'react';
-
 import Places from './components/Places.jsx';
 import Modal from './components/Modal.jsx';
 import DeleteConfirmation from './components/DeleteConfirmation.jsx';
